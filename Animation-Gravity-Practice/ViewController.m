@@ -39,7 +39,7 @@
     
     //バウンス
     UIDynamicItemBehavior *elasticityBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[myView]];
-    elasticityBehavior.elasticity = 1.0f;
+    elasticityBehavior.elasticity = 1.6f;
     [self.animator addBehavior:elasticityBehavior];
     
     
